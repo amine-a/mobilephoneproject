@@ -1,0 +1,196 @@
+==============================================================
+=== Android 1.5 
+==============================================================
+com.android.alarmclock/databases/alarms.db
+com.android.launcher/databases/launcher.db
+com.android.providers.contacts/databases/contacts.db
+com.android.providers.downloads/databases/downloads.db
+com.android.providers.media/databases/external-13f11c1a.db
+com.android.providers.media/databases/internal.db
+com.android.providers.settings/databases/settings.db
+com.android.providers.telephony/databases/mmssms.db
+com.android.providers.telephony/databases/telephony.db
+com.android.providers.userdictionary/databases/user_dict.db
+
+==============================================================
+=== Android 2.3
+==============================================================
+com.android.deskclock/databases/alarms.db
+com.android.launcher/databases/launcher.db
+com.android.providers.contacts/databases/contacts2.db
+com.android.providers.downloads/databases/downloads.db
+com.android.providers.settings/databases/settings.db
+com.android.providers.telephony/databases/mmssms.db
+com.android.providers.telephony/databases/telephony.db
+
+==============================================================
+=== Android 3.2
+==============================================================
+com.android.deskclock/databases/alarms.db
+com.android.email/databases/EmailProvider.db
+com.android.email/databases/EmailProviderBody.db
+com.android.launcher/databases/launcher.db
+com.android.providers.contacts/databases/contacts2.db
+com.android.providers.downloads/databases/downloads.db
+com.android.providers.media/databases/external.db
+com.android.providers.media/databases/internal.db
+com.android.providers.settings/databases/settings.db
+com.android.providers.telephony/databases/mmssms.db
+com.android.providers.telephony/databases/telephony.db
+
+==============================================================
+== Table list of contacts.db:
+==============================================================
+name = android_metadata
+name = people
+name = sqlite_sequence
+name = peopleNameIndex
+name = peopleSyncDirtyIndex
+name = peopleSyncIdIndex
+name = people_timesContacted
+name = groups
+name = sqlite_autoindex_groups_1
+name = groupsSyncDirtyIndex
+name = peopleLookup
+name = peopleLookupIndex
+name = photos
+name = sqlite_autoindex_photos_1
+name = photosSyncDirtyIndex
+name = photoPersonIndex
+name = peopleDeleteAndPhotos
+name = _deleted_people
+name = _deleted_groups
+name = phones
+name = phonesIndex1
+name = phonesIndex2
+name = contact_methods
+name = contactMethodsPeopleIndex
+name = calls
+name = settings
+name = organizations
+name = organizationsIndex1
+name = extensions
+name = sqlite_autoindex_extensions_1
+name = extensionsIndex1
+name = groupmembership
+name = groupmembershipIndex1
+name = groupmembershipIndex2
+name = groupmembershipIndex3
+name = contact_cleanup
+name = groups_cleanup
+name = groups_to_deleted
+name = peopleLookup_update
+name = peopleLookup_insert
+name = phones_update
+name = phones_insert
+name = phones_delete
+name = contact_methods_update
+name = contact_methods_insert
+name = contact_methods_delete
+name = organizations_update
+name = organizations_insert
+name = organizations_delete
+name = groupmembership_update
+name = groupmembership_insert
+name = groupmembership_delete
+name = extensions_update
+name = extensions_insert
+name = extensions_delete
+name = phones_INSERT_typeAndLabel
+name = phones_UPDATE_typeAndLabel
+name = organizations_INSERT_typeAndLabel
+name = organizations_UPDATE_typeAndLabel
+name = contact_methods_INSERT_typeAndLabel
+name = contact_methods_UPDATE_typeAndLabel
+name = voice_dialer_timestamp
+name = timestamp_trigger1
+name = timestamp_trigger2
+name = _sync_state
+name = sqlite_autoindex__sync_state_1
+name = _sync_state_metadata
+
+==============================================================
+== Table list of contacts2.db:
+==============================================================
+name = android_metadata
+name = _sync_state
+name = sqlite_autoindex__sync_state_1
+name = _sync_state_metadata
+name = contacts
+name = sqlite_sequence
+name = contacts_has_phone_index
+name = contacts_restricted_index
+name = contacts_name_raw_contact_id_index
+name = raw_contacts
+name = raw_contacts_contact_id_index
+name = raw_contacts_source_id_index
+name = packages
+name = mimetypes
+name = mime_type
+name = data
+name = data_raw_contact_id
+name = data_mimetype_data1_index
+name = phone_lookup
+name = phone_lookup_index
+name = phone_lookup_min_match_index
+name = phone_lookup_data_id_min_match_index
+name = name_lookup
+name = sqlite_autoindex_name_lookup_1
+name = name_lookup_raw_contact_id_index
+name = nickname_lookup
+name = nickname_lookup_index
+name = groups
+name = groups_source_id_index
+name = agg_exceptions
+name = aggregation_exception_index1
+name = aggregation_exception_index2
+name = settings
+name = sqlite_autoindex_settings_1
+name = visible_contacts
+name = default_directory
+name = calls
+name = activities
+name = status_updates
+name = properties
+name = sqlite_autoindex_properties_1
+name = accounts
+name = directories
+name = view_data
+name = view_data_restricted
+name = view_raw_contacts
+name = view_raw_contacts_restricted
+name = view_contacts
+name = view_contacts_restricted
+name = view_raw_entities
+name = view_raw_entities_restricted
+name = view_entities
+name = view_entities_restricted
+name = view_groups
+name = raw_contacts_deleted
+name = raw_contacts_marked_deleted
+name = data_updated
+name = data_deleted
+name = groups_updated1
+name = view_v1_people
+name = view_v1_organizations
+name = view_v1_contact_methods
+name = view_v1_phones
+name = view_v1_extensions
+name = view_v1_groups
+name = view_v1_group_membership
+name = view_v1_photos
+name = v1_settings
+name = sqlite_stat1
+name = search_index
+name = search_index_content
+name = search_index_segments
+name = search_index_segdir
+name = sqlite_autoindex_search_index_segdir_1
+name = search_index_docsize
+name = search_index_stat
+name = name_lookup_index
+name = raw_contact_sort_key1_index
+name = raw_contact_sort_key2_index
+
+
+
